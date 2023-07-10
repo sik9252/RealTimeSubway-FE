@@ -1,12 +1,13 @@
 import SideMenu from "../../components/SideMenu";
 import Subway from "../Subway";
+import { Flex } from "@chakra-ui/react";
 
 function Home() {
   return (
-    <div>
+    <Flex>
       <SideMenu />
       <Subway />
-    </div>
+    </Flex>
   );
 }
 

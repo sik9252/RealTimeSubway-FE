@@ -1,5 +1,11 @@
+import { Box } from "@chakra-ui/react";
+
 function SideMenu() {
-  return <div>SideMenu</div>;
+  return (
+    <Box w="15%" h="100vh">
+      SideMenu
+    </Box>
+  );
 }
 
 export default SideMenu;
