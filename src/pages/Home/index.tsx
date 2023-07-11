@@ -4,7 +4,7 @@ import { Flex } from "@chakra-ui/react";
 
 function Home() {
   return (
-    <Flex>
+    <Flex p="10px">
       <SideMenu />
       <Subway />
     </Flex>
