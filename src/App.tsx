@@ -1,5 +1,5 @@
 import Home from "./pages/Home";
-import { SelectLineProvider } from "./context/selectedLineProvider";
+import { SelectLineProvider } from "./context/SelectedLineProvider";
 
 function App() {
   return (

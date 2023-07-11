@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { Flex, Box, Button } from "@chakra-ui/react";
 import { lineList } from "../../lib/data/line.js";
-import { SelectedLineContext } from "../../context/selectedLineContext.js";
+import { SelectedLineContext } from "../../context/SelectedLineContext.js";
 
 function SideMenu() {
   const selectedLineContext = useContext(SelectedLineContext);

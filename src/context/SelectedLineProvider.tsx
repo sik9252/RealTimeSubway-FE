@@ -1,5 +1,5 @@
 import { useState, PropsWithChildren } from "react";
-import { SelectedLineContext } from "./selectedLineContext";
+import { SelectedLineContext } from "./SelectedLineContext";
 
 export function SelectLineProvider({ children }: PropsWithChildren) {
   const [selectedLine, setSelectedLine] = useState<string>("1호선");
